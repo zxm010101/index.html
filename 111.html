@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;padding: 0;
+        }
+        div{
+            margin: 100px auto;
+            width: 288px;
+            height: 288px;
+            border:3px solid rgb(77, 127, 192);
+            overflow: hidden;
+            
+        }
+        ul{
+            width: 2000px;
+            height: 200px;
+            background: rgb(108, 164, 209);
+            animation:change 4s linear 0s infinite normal;   /*动画元素，持续时间，速度，延迟时间，重复次数，是否往返*/
+        }
+        ul:hover{
+            animation-play-state: paused;
+        }
+        ul:hover li{
+            opacity: 0.5;   /*透明度，显示父元素颜色*/
+        }
+        ul li:hover{
+            opacity: 0.4;
+        }
+        ul li{
+            width: 300px;height: 300px;
+            list-style: none;
+            float: left;
+            border:1px solid rgb(96, 62, 97);
+            background-color: rgb(91, 133, 197);
+            box-sizing: border-box;
+            }
+        @keyframes change{
+            from{margin-left: 0;}
+            to{margin-left:-1200px ;}
+        }
+    </style>
+</head>
+<body>
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">首先是照片:</p>
+    <div><ul>
+                    <li><img src="QQ图片20201123093153.jpg" style="width:100%;height:100%"/>1</li>
+                    <li><img src="QQ图片20201123093214.jpg" style="width:100%; height:100%"/>2</li>
+                    <li><img src="QQ图片20201123093153.jpg" style="width:100%; height:100%"/>3</li>
+                    <li><img src="QQ图片20201123093214.jpg" style="width: 100%;height: 100%;">4</li>
+                    <li><img src="QQ图片20201123093153.jpg" style="width: 100%;height: 100%;">5</li>
+                </ul>
+    </div>
+
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">各种味道的「卤粉」都很8错！大家可以根据自己的口味选择。</p>
+    <p>
+        
+    </p>
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">还有不要钱的免费配料，印象最深的就是辣椒萝卜，嚼着嘎嘣嘎嘣脆，可得劲了。</p>
+    <p>
+
+    </p>
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">传说他的「土豆泥」是全长沙最好吃的。</p>
+    <p>
+
+    </p>
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">我不是很喜欢跟卤粉拌在一起，这样的话土豆泥拌着拌着就散了，
+        体会不到一吃一大口的满足感。</p>
+        <p>
+
+        </p>
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">土豆泥很粘稠，拌卤粉的时候混在一起的话可以为米粉增加一点绵密的口感。
+    </p>
+    <p>
+        
+    </p>
+    
+    <p style="font-family: 华文新魏;color:rgb(26, 78, 61);font: size 66px;font-weight: 666;">不想去店里的还可以点外卖:  <a href="https://meishi.meituan.com/i/poi/157056837?utm_term=AandroidBgroupC11.3.202DqqEpoiG20201123094248000000000000009033BB2390F4FD1B1D410333C3CF052A159647005082546574571&utm_source=appshare&utm_medium=androidweb&utm_fromapp=qq&lch=appshare_khtvyavsn8r5
+    ">点击跳转</a></p>
+
+</body>
+</html>
